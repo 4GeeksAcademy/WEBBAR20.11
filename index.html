@@ -1,11 +1,428 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spirit House - Vinos y Licores Premium</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="header-top">
+                <div class="container header-top-content">
+                    <div class="contact-info">
+                        <span><i class="fas fa-phone"></i> +56 9 8765 4321</span>
+                        <span><i class="fas fa-envelope"></i> contacto@spirithouse.cl</span>
+                    </div>
+                    <div class="age-warning">
+                        <i class="fas fa-exclamation-circle"></i> Venta exclusiva para mayores de 18 años
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container main-header">
+                <a href="#" class="logo">
+                    <i class="fas fa-wine-bottle"></i> SPIRIT<span>HOUSE</span>
+                </a>
+                
+                <button class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Categorías</a></li>
+                        <li><a href="#">Ofertas</a></li>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Buscar productos...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    
+                    <a href="#" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">3</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>LICORES PREMIUM CON ENTREGA EXPRESS</h1>
+                    <p>Descubre nuestra exclusiva selección de más de 500 etiquetas de las mejores bodegas y destilerías del mundo</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn">Explorar Colección</a>
+                        <a href="#" class="btn btn-outline">Ver Ofertas</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="categories">
+            <div class="container">
+                <h2 class="section-title">Nuestras Categorías</h2>
+                
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <div class="category-img">
+                            <i class="fas fa-wine-bottle"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Vinos</h3>
+                            <p>Selección de vinos tintos, blancos y espumantes</p>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card">
+                        <div class="category-img">
+                            <i class="fas fa-whiskey-glass"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Whisky</h3>
+                            <p>Single malts, blends y bourbons de calidad</p>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card">
+                        <div class="category-img">
+                            <i class="fas fa-cocktail"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Ron</h3>
+                            <p>Rones premium de todo el mundo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card">
+                        <div class="category-img">
+                            <i class="fas fa-glass-water"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Vodka</h3>
+                            <p>Vodkas artesanales y de importación</p>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card">
+                        <div class="category-img">
+                            <i class="fas fa-wine-glass-alt"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Tequila</h3>
+                            <p>100% agave y tequilas premium</p>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card">
+                        <div class="category-img">
+                            <i class="fas fa-beer"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Cervezas</h3>
+                            <p>Artesanales e importadas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured-products">
+            <div class="container">
+                <h2 class="section-title">Productos Destacados</h2>
+                
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <div class="product-badge">Nuevo</div>
+                            <i class="fas fa-whiskey-glass"></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span>Whisky</span>
+                                <span><i class="fas fa-star"></i> 4.8</span>
+                            </div>
+                            <h3 class="product-title">Johnnie Walker Blue Label</h3>
+                            <div class="product-price">
+                                <span class="price">$189.990</span>
+                                <span class="old-price">$219.990</span>
+                            </div>
+                            <div class="product-actions">
+                                <a href="#" class="add-to-cart">Añadir al carrito</a>
+                                <a href="#" class="wishlist"><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <div class="product-badge">Oferta</div>
+                            <i class="fas fa-cocktail"></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span>Ron</span>
+                                <span><i class="fas fa-star"></i> 4.9</span>
+                            </div>
+                            <h3 class="product-title">Ron Zacapa XO</h3>
+                            <div class="product-price">
+                                <span class="price">$89.990</span>
+                                <span class="old-price">$99.990</span>
+                            </div>
+                            <div class="product-actions">
+                                <a href="#" class="add-to-cart">Añadir al carrito</a>
+                                <a href="#" class="wishlist"><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <i class="fas fa-glass-water"></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span>Vodka</span>
+                                <span><i class="fas fa-star"></i> 4.7</span>
+                            </div>
+                            <h3 class="product-title">Vodka Beluga Noble</h3>
+                            <div class="product-price">
+                                <span class="price">$49.990</span>
+                            </div>
+                            <div class="product-actions">
+                                <a href="#" class="add-to-cart">Añadir al carrito</a>
+                                <a href="#" class="wishlist"><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-img">
+                            <div class="product-badge">-15%</div>
+                            <i class="fas fa-wine-glass-alt"></i>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span>Tequila</span>
+                                <span><i class="fas fa-star"></i> 4.8</span>
+                            </div>
+                            <h3 class="product-title">Don Julio 1942</h3>
+                            <div class="product-price">
+                                <span class="price">$149.990</span>
+                                <span class="old-price">$174.990</span>
+                            </div>
+                            <div class="product-actions">
+                                <a href="#" class="add-to-cart">Añadir al carrito</a>
+                                <a href="#" class="wishlist"><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Offer -->
+        <section class="special-offer">
+            <div class="container">
+                <div class="offer-content">
+                    <div class="offer-img">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <div class="offer-info">
+                        <span class="offer-tag">Oferta Especial</span>
+                        <h2>Combo Premium Verano 2023</h2>
+                        <p>Disfruta de este verano con nuestro combo especial que incluye una botella de Ron Zacapa XO, 6 Coca-Cola premium y 2 vasos de colección.</p>
+                        
+                        <div class="timer">
+                            <div class="timer-item">
+                                <div class="timer-value">02</div>
+                                <div class="timer-label">Días</div>
+                            </div>
+                            <div class="timer-item">
+                                <div class="timer-value">12</div>
+                                <div class="timer-label">Horas</div>
+                            </div>
+                            <div class="timer-item">
+                                <div class="timer-value">45</div>
+                                <div class="timer-label">Min</div>
+                            </div>
+                            <div class="timer-item">
+                                <div class="timer-value">30</div>
+                                <div class="timer-label">Seg</div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-price">
+                            <span class="price">$99.990</span>
+                            <span class="old-price">$124.990</span>
+                        </div>
+                        
+                        <a href="#" class="btn" style="margin-top: 20px;">Comprar Ahora</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "La selección de vinos es impresionante y el servicio de entrega es rápido. Siempre llegan en perfectas condiciones."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Carlos Martínez</h4>
+                                <div class="author-role">Cliente Premium</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "Compré el whisky Johnnie Walker Blue Label como regalo y fue un éxito. La presentación y calidad son excelentes."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Ana Rodríguez</h4>
+                                <div class="author-role">Cliente frecuente</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "El combo de verano superó mis expectativas. Todo llegó perfectamente empacado y a tiempo para mi fiesta."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Jorge Silva</h4>
+                                <div class="author-role">Nuevo cliente</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <h2 class="section-title">Suscríbete a Nuestro Newsletter</h2>
+                <p>Recibe ofertas exclusivas, nuevos lanzamientos y consejos para maridar en tu correo.</p>
+                
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h3>Spirit House</h3>
+                        <p>Tu tienda de licores premium con la mejor selección de vinos, whiskies, rones y más. Calidad garantizada y entrega express.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h3>Enlaces Rápidos</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Productos</a></li>
+                            <li><a href="#">Categorías</a></li>
+                            <li><a href="#">Ofertas</a></li>
+                            <li><a href="#">Sobre Nosotros</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h3>Categorías</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Vinos</a></li>
+                            <li><a href="#">Whisky</a></li>
+                            <li><a href="#">Ron</a></li>
+                            <li><a href="#">Vodka</a></li>
+                            <li><a href="#">Tequila</a></li>
+                            <li><a href="#">Cervezas</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h3>Contáctanos</h3>
+                        <div class="contact-info-footer">
+                            <div class="contact-item">
+                                <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+                                <span>Av. El Golf 99, Santiago de Chile</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                                <span>+56 9 8765 4321</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                                <span>contacto@spirithouse.cl</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon"><i class="fas fa-clock"></i></span>
+                                <span>Lun-Vie: 10:00 - 20:00 | Sáb: 11:00 - 18:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="age-warning-footer">
+                    <i class="fas fa-exclamation-circle"></i> Beber con moderación. Prohibida su venta a menores de edad. El exceso de alcohol es perjudicial para la salud.
+                </div>
+                
+                <div class="copyright">
+                    &copy; 2023 Spirit House. Todos los derechos reservados.
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            // Mobile menu toggle
+            const mobileToggle = document.querySelector('.mobile-toggle');
+            const navMenu = document.querySelector('nav ul');
+            
+            mobileToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+        </script>
+    </body>
 </html>
